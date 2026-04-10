@@ -15,7 +15,8 @@ body {
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0,0,0,0.6)), url("planclub2.png");
+    /* CORRECCIÓN AQUÍ: ../ sale de CSS y IMG/ entra a la carpeta de imágenes */
+    background: linear-gradient(rgba(0, 0, 0, 0.37), rgba(0,0,0,0.6)), url("../IMG/planclub2.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
